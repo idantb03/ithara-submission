@@ -1,0 +1,10 @@
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+tests/
+ithara-booking-bot-working-ref/
+*.md
+!README.md
+.git/
+sessions.db

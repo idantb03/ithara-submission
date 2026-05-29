@@ -1,0 +1,36 @@
+MOCK_VOUCHERS = {
+    "ITH-A1B2-C3D4": {
+        "valid": True,
+        "status": "active",
+        "code": "ITH-A1B2-C3D4",
+        "experience": "Relaxing Spa Day for Her",
+        "experience_id": "exp-002",
+        "partner_id": "partner-007",
+        "partner_name": "Sofitel Dubai The Palm",
+        "partner_email": "bookings@sofitel-example.com",
+        "partner_whatsapp": "+97145531234",
+        "expires_at": "2026-12-31",
+    },
+    "ITH-B5C6-D7E8": {
+        "valid": True,
+        "status": "active",
+        "code": "ITH-B5C6-D7E8",
+        "experience": "Desert Safari with BBQ Dinner",
+        "experience_id": "exp-003",
+        "partner_id": "partner-003",
+        "partner_name": "Arabian Desert Tours",
+        "partner_email": "info@arabiandesert-example.com",
+        "partner_whatsapp": "+97150987654",
+        "expires_at": "2026-10-01",
+    },
+    "ITH-X1Y2-Z3W4": {
+        "valid": False,
+        "status": "expired",
+        "message": "This voucher expired on 2026-01-15. Reply here and our team will help.",
+    },
+    "ITH-R3D4-E5M5": {
+        "valid": False,
+        "status": "redeemed",
+        "message": "This voucher has already been redeemed. Reply here if you think this is an error.",
+    },
+}
