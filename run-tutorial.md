@@ -199,7 +199,7 @@ From the repo root (with venv active):
 python -m pytest -q
 ```
 
-Expected: **19 passed**.
+Expected: **10 passed**.
 
 Verbose output:
 

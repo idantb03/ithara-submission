@@ -41,6 +41,8 @@ Note: `SESSION_DB_URL` is reserved for future multi-turn sessions; the pipeline 
 
 ## Tests
 
+10 tests (intent, voucher validation, pipeline). From the repo root:
+
 ```powershell
 python -m pytest -q
 ```
